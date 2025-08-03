@@ -20,6 +20,42 @@ function wallpaper_background() {
   background(240, 255, 240); //light honeydew green colour
 }
 
-function my_symbol() { // do not rename this function. Treat this similarly to a Draw function
-  rect(40 ,40, rect_width, rect_height);
+let rect_w = 30;
+let rect_h = 200;
+let rect_x = 0;
+let rect_y = 0;
+let gap = 50;
+
+function my_symbol() { // do not rename
+//  this function. Treat this similarly to a Draw function
+  rect(rect_x, rect_y, rect_w, rect_h);
+  rect(rect_x+gap, rect_y, rect_w, rect_h);
+  rect(rect_x+(gap*2), rect_y, rect_w, rect_h);
+  rect(rect_x+(gap*3), rect_y, rect_w, rect_h);
+  rect(rect_x+(gap*4), rect_y, rect_w, rect_h);
+  drawBear(0, 0, 55); // calls the function to draw the bear
+  drawBear(90, 90, 60); 
+}
+
+function drawBear(xPos, yPos, bear = 60, bearEarEye = bear/2, bearPupil= bear/3) {
+  translate(xPos, yPos);
+  
+  if (bear >= 60) {
+  stroke(41, 30, 24);
+  fill(168, 134, 113); 
+  } else {
+  fill(41, 30, 24); 
+  }
+
+  ellipse(60, 60, bear,bear);
+  ellipse(25, 30, bearEarEye, bearEarEye);
+  ellipse(95, 30, bearEarEye, bearEarEye);
+
+  fill (0);
+  ellipse(70, 60, bearEarEye, bearEarEye);
+  ellipse(35, 60, bearEarEye, bearEarEye);
+
+  fill (255);
+  ellipse(60, 60, bearPupil, bearPupil);
+  ellipse(25, 60, bearPupil, bearPupil);
 }
