@@ -44,12 +44,14 @@ function my_symbol() { // do not rename
   fill(206, 229, 242);
   ellipse(150,pos_y, 100, 100);
  
-  //fill(15, 113, 115);
-  //drawFlower(pos_x, pos_y);
+  drawFlower(pos_x, pos_y);
 }
 
 function drawFlower(x, y) {
   fill(0, 128, 255); //light blue
   ellipse(x, y, petal_x, petal_y);
   ellipse(x+petal_gap+petal_x, y, petal_x, petal_y);
+
+  ellipse(100, y+petal_gap+petal_y, petal_y, petal_x);
+  ellipse(100, 60, petal_y, petal_x);
 }
