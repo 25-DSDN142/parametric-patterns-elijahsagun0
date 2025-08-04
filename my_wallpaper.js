@@ -51,7 +51,7 @@ function my_symbol() { // do not rename
 }
 
 function drawFlower(x, y) {
-  fill(0, 128, 255); //light blue
+  fill(0, 128, 255); //lightS blue
   ellipse(x, y, petal_x, petal_y);
   ellipse(x+petal_gap+petal_x, y, petal_x, petal_y);
   ellipse(100, y+petal_gap+petal_y, petal_y, petal_x);
@@ -66,6 +66,7 @@ function drawFlower2(x, y) {
   stroke(0);
   strokeWeight(0.5);
   curve(100, 100, 100, 100, 150, 60, 200,200);
-  curve(100, 100, 100, 30, 60, 60, 200,200);
+  curve(100, 100, 100, 100, 50, 60, 0, 200);
+
 }
   
