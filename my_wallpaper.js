@@ -4,8 +4,8 @@ let rect_height = 30;
 
 
 function setup_wallpaper(pWallpaper) {
-  pWallpaper.output_mode(DEVELOP_GLYPH);
-  //pWallpaper.output_mode(GRID_WALLPAPER);
+  //pWallpaper.output_mode(DEVELOP_GLYPH);
+  pWallpaper.output_mode(GRID_WALLPAPER);
   
   pWallpaper.resolution(FIT_TO_SCREEN);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
@@ -35,6 +35,8 @@ function my_symbol() { // do not rename
   fill(25, 42, 81); 
   rect(0,0,100,100);
   
+  lines(pos_x, pos_y); 
+
   fill(206, 229, 242);
   rect(0, 100, 100, 100);
   rect(100,0,100,100);
@@ -43,9 +45,11 @@ function my_symbol() { // do not rename
   fill(25, 42, 81);
   rect(100, 100, 100, 100);
 
+  lines(pos_x, pos_y);
+  
   fill(206, 229, 242);
   ellipse(150,pos_y, 100, 100);
- 
+  
   drawFlower2(pos_x, pos_y);
   drawFlower(pos_x, pos_y);
 }
@@ -68,5 +72,13 @@ function drawFlower2(x, y) {
   curve(100, 100, 100, 100, 150, 60, 200,200);
   curve(100, 100, 100, 100, 50, 60, 0, 200);
 
+}
+
+function lines(x,y) { 
+  fill(179, 221, 255);
+  rect(10, 0, 6, 200);
+  rect(20, 0, 6, 200);
+  rect(200-10, 0, 6, 200);
+  rect(200-20, 0, 6, 200);
 }
   
