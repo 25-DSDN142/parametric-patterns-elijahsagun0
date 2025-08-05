@@ -17,10 +17,10 @@ let pos_y = 100;
 let petal_gap = 20;
 let petal_x = 60;
 let petal_y = 20;
-let bgShapes = 90;
-let line_gap = 50;
+let bgShapes = 100;
+let line_gap = 10;
 let line_height = 200;
-let line_width = 4;
+let line_width = 6;
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
@@ -37,37 +37,7 @@ function setup_wallpaper(pWallpaper) {
 
 /////////////////////////////////
 
-Wallpaper 1:
-
-//your parameter variables go here!
-let rect_width  = 20;
-let rect_height = 30;
-let pos_x = 60;
-let pos_y = 100;
-let petal_gap = 20;
-let petal_x = 60;
-let petal_y = 20;
-let bgShapes = 90;
-let line_gap = 50;
-let line_height = 200;
-let line_width = 4;
-
-function setup_wallpaper(pWallpaper) {
-  pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
-  pWallpaper.show_guide(false); //set this to false when you're ready to print
-
-  //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 0;
-}
-
-/////////////////////////////////
-
-/////////////////////////////////
-
-Wallpaper 1:
+Wallpaper 2:
 
 //your parameter variables go here!
 let rect_width  = 20;
@@ -77,10 +47,70 @@ let pos_y = 100;
 let petal_gap = 20;
 let petal_x = 30;
 let petal_y = 20;
-let bgShapes = 90;
+let bgShapes = 100;
+let line_gap = 5;
+let line_height = 200;
+let line_width = 6;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 100;
+  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+/////////////////////////////////
+
+/////////////////////////////////
+
+Wallpaper 3:
+
+//your parameter variables go here!
+let rect_width  = 20;
+let rect_height = 30;
+let pos_x = 60;
+let pos_y = 100;
+let petal_gap = 20;
+let petal_x = 60;
+let petal_y = 20;
+let bgShapes = 100;
+let line_gap = 5;
+let line_height = 200;
+let line_width = 6;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 100;
+  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+/////////////////////////////////
+
+/////////////////////////////////
+
+Wallpaper 4:
+
+//your parameter variables go here!
+let rect_width  = 20;
+let rect_height = 30;
+let pos_x = 60;
+let pos_y = 100;
+let petal_gap = 20;
+let petal_x = 60;
+let petal_y = 20;
+let bgShapes = 50;
 let line_gap = 10;
 let line_height = 200;
-let line_width = 4;
+let line_width = 6;
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
@@ -97,7 +127,7 @@ function setup_wallpaper(pWallpaper) {
 
 /////////////////////////////////
 
-Wallpaper 1:
+Wallpaper 5:
 
 //your parameter variables go here!
 let rect_width  = 20;
@@ -105,12 +135,12 @@ let rect_height = 30;
 let pos_x = 60;
 let pos_y = 100;
 let petal_gap = 20;
-let petal_x = 60;
+let petal_x = 70;
 let petal_y = 20;
-let bgShapes = 90;
-let line_gap = 50;
+let bgShapes = 80;
+let line_gap = 10;
 let line_height = 200;
-let line_width = 4;
+let line_width = 6;
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
@@ -127,7 +157,7 @@ function setup_wallpaper(pWallpaper) {
 
 /////////////////////////////////
 
-Wallpaper 1:
+Wallpaper 6:
 
 //your parameter variables go here!
 let rect_width  = 20;
@@ -135,12 +165,12 @@ let rect_height = 30;
 let pos_x = 60;
 let pos_y = 100;
 let petal_gap = 20;
-let petal_x = 60;
+let petal_x = 30;
 let petal_y = 20;
-let bgShapes = 90;
-let line_gap = 50;
-let line_height = 200;
-let line_width = 4;
+let bgShapes = 40;
+let line_gap = 10;
+let line_height = 100;
+let line_width = 6;
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
@@ -157,7 +187,7 @@ function setup_wallpaper(pWallpaper) {
 
 /////////////////////////////////
 
-Wallpaper 1:
+Wallpaper 7:
 
 //your parameter variables go here!
 let rect_width  = 20;
@@ -165,12 +195,12 @@ let rect_height = 30;
 let pos_x = 60;
 let pos_y = 100;
 let petal_gap = 20;
-let petal_x = 60;
+let petal_x = 30;
 let petal_y = 20;
-let bgShapes = 90;
-let line_gap = 50;
-let line_height = 200;
-let line_width = 4;
+let bgShapes = 40;
+let line_gap = 10;
+let line_height = 100;
+let line_width = 6;
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
@@ -180,14 +210,14 @@ function setup_wallpaper(pWallpaper) {
   //Grid settings
   pWallpaper.grid_settings.cell_width  = 100;
   pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 0;
+  pWallpaper.grid_settings.row_offset  = 50;
 }
 
 /////////////////////////////////
 
 /////////////////////////////////
 
-Wallpaper 1:
+Wallpaper 8:
 
 //your parameter variables go here!
 let rect_width  = 20;
@@ -197,10 +227,10 @@ let pos_y = 100;
 let petal_gap = 20;
 let petal_x = 60;
 let petal_y = 20;
-let bgShapes = 90;
-let line_gap = 50;
+let bgShapes = 100;
+let line_gap = 10;
 let line_height = 200;
-let line_width = 4;
+let line_width = 6;
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
@@ -210,14 +240,14 @@ function setup_wallpaper(pWallpaper) {
   //Grid settings
   pWallpaper.grid_settings.cell_width  = 100;
   pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 0;
+  pWallpaper.grid_settings.row_offset  = 50;
 }
 
 /////////////////////////////////
 
 /////////////////////////////////
 
-Wallpaper 1:
+Wallpaper 9:
 
 //your parameter variables go here!
 let rect_width  = 20;
@@ -225,12 +255,12 @@ let rect_height = 30;
 let pos_x = 60;
 let pos_y = 100;
 let petal_gap = 20;
-let petal_x = 60;
+let petal_x = 40;
 let petal_y = 20;
-let bgShapes = 90;
-let line_gap = 50;
+let bgShapes = 80;
+let line_gap = 10;
 let line_height = 200;
-let line_width = 4;
+let line_width = 6;
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
@@ -240,37 +270,7 @@ function setup_wallpaper(pWallpaper) {
   //Grid settings
   pWallpaper.grid_settings.cell_width  = 100;
   pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 0;
-}
-
-/////////////////////////////////
-
-/////////////////////////////////
-
-Wallpaper 1:
-
-//your parameter variables go here!
-let rect_width  = 20;
-let rect_height = 30;
-let pos_x = 60;
-let pos_y = 100;
-let petal_gap = 20;
-let petal_x = 60;
-let petal_y = 20;
-let bgShapes = 90;
-let line_gap = 50;
-let line_height = 200;
-let line_width = 4;
-
-function setup_wallpaper(pWallpaper) {
-  pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
-  pWallpaper.show_guide(false); //set this to false when you're ready to print
-
-  //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 0;
+  pWallpaper.grid_settings.row_offset  = 50;
 }
 
 /////////////////////////////////
