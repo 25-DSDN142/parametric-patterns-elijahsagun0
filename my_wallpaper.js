@@ -4,11 +4,11 @@ let rect_height = 30;
 
 
 function setup_wallpaper(pWallpaper) {
-  //pWallpaper.output_mode(DEVELOP_GLYPH);
-  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.output_mode(DEVELOP_GLYPH);
+  //pWallpaper.output_mode(GRID_WALLPAPER);
   
   pWallpaper.resolution(FIT_TO_SCREEN);
-  pWallpaper.show_guide(false); //set this to false when you're ready to print
+   //set this to false when you're ready to print
 
   //Grid settings
   pWallpaper.grid_settings.cell_width  = 200;
@@ -46,7 +46,7 @@ function my_symbol() { // do not rename
   rect(100, 100, 100, 100);
 
   lines(pos_x, pos_y);
-  
+
   fill(206, 229, 242);
   ellipse(150,pos_y, 100, 100);
   
